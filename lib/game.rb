@@ -25,10 +25,10 @@ class Game
         turn(i)
       else
         if @board.victory? == 1 
-          puts "#{@players[0].firstname} is the wiiiiinneeeeeer !"
+          puts "#{@players[0].firstname} is the wiiiiinneeeeeer !!!"
 
         else #si le joueur ayant les 'O' gagne (voir méthode victory? dans game.rb)
-          puts "#{@players[1].firstname} is the wiiiiinneeeeeer !"
+          puts "#{@players[1].firstname} is the wiiiiinneeeeeer !!!"
         end
         exit
       end
